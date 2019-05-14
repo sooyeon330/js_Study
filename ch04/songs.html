@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>곡 제시 프로그램</title>
+<meta charset="utf-8">
+<script>
+	var songs = [ "Don't Stop Bitleaving, by Jourbee",
+			"Material Geek, by Modonna", "Just Code, by Lady LaLa",
+			"We're Not Going to Code It, by Twisted System",
+			"Code on Eileen, by Dexy's Midnight Webbers" ];
+/* 	function suggestSong() {
+		//추가 1 함수만들기
+		var index = Math.floor(Math.random() * songs.length);
+		var suggestion = songs[index];
+		//document.write("<p>suggestion1: + suggestion");
+		return suggestion;
+	} */
+	function searchForSong(word) {
+		//추가 2 함수만들기
+		var song;
+		for (var i = 0; i, songs.length; i++) {
+			song = songs[i];
+			if (songs[i].indexOf(word) >= 0) {
+				return song;
+			}
+		}
+		return "업는 곡 입니다.";
+
+	}
+	/* var song = suggestSong(); */
+	var matchedSong = searchForSong("Code");
+	alert(matchedSong);
+</script>
+</head>
+<body>
+</body>
+</html>

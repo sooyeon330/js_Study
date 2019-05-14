@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>아이스크림 떠먹기</title>
+<meta charset="utf-8">
+<script>
+	var scoops = 10;
+	while (scoops >= 0) {
+		switch (scoops){
+		case 9:case 8:case 7:case 6:case 5:case 4: alert("아직 아잇크림이 많이 남아있어요, 와서 드세요"+ "("+scoops+"scoops)"); break;
+		case 3:alert("아이스크림이 얼마 남지 ㅇ낳았어요"+ "("+scoops+"scoops)");break;
+		case 2:alert("두 입 남았어요!"+ "("+scoops+"scoops)");break;
+		case 1:alert("한 입 나망ㅆ어요!"+ "("+scoops+"scoops)");break;
+		case 0:alert("다먹음");break;
+		default: alert("아이스크림이 녹고있으니 빨리 드세요"+ "("+scoops+"scoops)");break;
+		}
+		scoops = scoops - 1;
+	}
+	alert("아이스크림이 없으니 삶이 예전 같지 않아요.");
+</script>
+</head>
+<body>
+<h1>아이스크림 몇 스푼 남았는지 세기</h1>
+</body>
+</html>
+

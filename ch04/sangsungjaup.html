@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>생성자만들기와 사용</title>
+<meta charset="utf-8">
+<script>
+	//1.개에 대한 생성자 함수 만들기
+	function stud(name, score, grade) {
+		this.name = name;
+		this.score = score;
+		this.grade = grade;
+		this.comment = function(){
+			alert(this.name + "학생의 점수는  "+this.score +"이고 등급은 "+this.grade +"입니다.");
+		}
+	}
+	//2.생성자 사용
+	var stud1 = new stud("채수연",100,'A');
+	var stud2 = new stud("송승연",99,'B');
+	var stud3 = new stud("홍은빈",98,'C');
+	var stud4 = new stud("박수정",97,'D');
+
+	//bark 메서드를 호출해서 작동해서 사용
+	 stud1.comment();
+	 stud2.comment();
+	 stud3.comment();
+	 stud4.comment();
+	 
+</script>
+</head>
+<body>
+	document.write("생성자 test");
+</body>
+</html>
+
+
+

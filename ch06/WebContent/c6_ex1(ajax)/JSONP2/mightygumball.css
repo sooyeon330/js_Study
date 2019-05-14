@@ -1,0 +1,38 @@
+body {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+div#sales {
+	background-color: lightblue;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	margin: 10px 0px 0px 0px;
+	padding: 0px;
+	border: 3px solid blue;
+}
+div.saleItem {
+	font-family: Verdana, Helvetica, sans-serif;
+	color: black;
+	padding: 10px;
+	margin: 10px 0px 10px 0px;
+}
+div.saleItem:nth-child(2n) {
+	background-color: lightpink ;
+}
+div.saleItem:nth-child(2n+1) {
+	background-color: lightgreen ;
+	border-radius: 30px;
+}
+div.saleItem:first-child {
+	-webkit-border-top-left-radius: 6px;
+	-webkit-border-top-right-radius: 6px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+}
+div.saleItem:last-child {
+	-webkit-border-bottom-left-radius: 6px;
+	-webkit-border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
+

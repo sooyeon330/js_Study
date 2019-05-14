@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>dog4</title>
+</head>
+<script>
+	var fido = {
+		name : "Fido",
+		weight : 40,
+		breed : "Mixed",
+		loves : [ "walks", "fetching balls" ]
+
+	};
+	var fido2 = {
+		name : "Fido",
+		weight : 40,
+		breed : "Mixed",
+		loves : [ "walks", "fetching balls" ]
+
+	};
+	var fido3 = {
+		name : "Fido",
+		weight : 40,
+		breed : "Mixed",
+		loves : [ "walks", "fetching balls" ]
+
+	};
+	var prop;
+	for (prop in fido) {
+		alert("fido has a " + prop + " property")
+		if (prop == "name")
+			alert("This is " + fido[prop]);
+		if (prop == "weight")
+			alert("This is " + fido[prop]);
+		if (prop == "breed")
+			alert("This is " + fido[prop]);
+	}
+
+	var likes = fido.loves;
+	var likeString = "Fiod likes";
+
+	for (var i = 0; i < likes.length; i++) {
+		likeString += " " + likes[i];
+	}
+	alert(likeString);
+</script>
+<body>
+
+</body>
+</html>

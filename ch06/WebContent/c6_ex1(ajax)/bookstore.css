@@ -1,0 +1,37 @@
+body {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+/* 전체배경 핑크색#ff00ff , div id="sales"==># 으로 접근 */
+ div#book {
+	background-color: orange;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	margin: 10px 0px 0px 0px;
+	padding:0px;
+	border: 1px solid #d9d9d9;
+}
+/* 핑크색위에,글자색#ff0000 , div의 saleItem은 class이므로 div.saleItem 점으로 접근 */
+div.saleItem {
+	font-family: Verdana, Helvetica, sans-serif;
+	color: white;
+	padding: 10px;
+}
+/* 이후 세개가 함께나와야 차례대로 행의 색이 바뀜 , 두번째행의 색:노란색#fafaaa */
+div.saleItem:nth-child(2n+1) {
+	background-color: blue;
+	margin: 10px 10px 10px 10px;
+}
+
+div.saleItem:first-child {
+	-webkit-border-top-left-radius: 6px;
+	-webkit-border-top-right-radius: 6px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+}
+div.saleItem:last-child {
+	-webkit-border-bottom-left-radius: 6px;
+	-webkit-border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+} 

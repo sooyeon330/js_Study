@@ -1,0 +1,26 @@
+CATALOG {background-color: #eeee00;width: 100%;}
+CD{display: block;margin-bottom: 40pt;margin-left: 0;}
+TITLE
+{
+color: #FF0000;
+font-size: 30pt;
+}
+ARTIST
+{
+color: #ff00ff;
+/* 마젠타색은 안되고 나중에 선언된 파란색이 됨=>해결하려면 21라인과 같이 나중에 선언하면 됨 */
+font-size: 20pt;
+margin-left: 15pt;
+}
+ARTIST,COUNTRY,PRICE,YEAR,COMPANY
+{
+display: block;
+color: #0000ff;/* 나중선언된 파란색이 적용됨 */
+margin-left: 20pt;
+}
+/* ARTIST
+{
+color: #ff00ff;
+font-size: 20pt;
+margin-left: 15pt;
+}  */

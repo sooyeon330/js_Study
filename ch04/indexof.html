@@ -1,0 +1,17 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+<p>Click the button to locate where in the string a specifed value occurs.</p>
+<button onclick="myFunction()">Try it</button>
+<p id="demo"></p>
+<script>
+function myFunction() {
+// 추가  indexOf Method 
+	var str ="Hello world, welcome to the universe";
+	var n = str.indexOf("welcome");
+	document.getElementById("demo").innerHTML=n;	
+}
+</script>
+</body>
+</html>
