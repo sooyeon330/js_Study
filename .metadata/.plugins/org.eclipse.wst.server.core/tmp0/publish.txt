@@ -1,5 +1,4 @@
 #Tomcat publish data
-#Tue May 14 10:08:41 KST 2019
-org.eclipse.jst.jee.server\:ch02=C\:\\js_study\\apache-tomcat-9.0.14\\wtpwebapps\\ch02
-org.eclipse.jst.jee.server\:ch01=C\:\\js_study\\apache-tomcat-9.0.14\\wtpwebapps\\ch01
-org.eclipse.jst.jee.server\:kakaomap=C\:\\js_study\\apache-tomcat-9.0.14\\wtpwebapps\\kakaomap
+#Wed May 15 12:21:28 KST 2019
+org.eclipse.jst.jee.server\:api_project=C\:\\js_study(2019)\\apache-tomcat-9.0.14\\wtpwebapps\\api_project
+org.eclipse.jst.jee.server\:ch06_3=C\:\\js_study(2019)\\apache-tomcat-9.0.14\\wtpwebapps\\ch06_3

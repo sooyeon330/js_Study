@@ -1,12 +1,18 @@
-INDEX VERSION 1.4+C:\js_study\jsProject\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-2858735076.index
-468150504.index
-1124561105.index
-1147843784.index
-3658359147.index
-2063756381.index
-2197184217.index
-872431687.index
-201678027.index
+INDEX VERSION 1.4+C:\js_study(2019)\jsProject\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
 854143607.index
-2196799758.index
+468150504.index
+3954099335.index
+3633652673.index
+3080141014.index
+201678027.index
+3658359147.index
+1124561105.index
+3119297326.index
+3126683794.index
+2063756381.index
+1147843784.index
+872431687.index
+838204096.index
+2858735076.index
+2197184217.index
+3595930017.index
